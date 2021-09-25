@@ -25,7 +25,8 @@
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
     <!-- Tweaks for older IEs-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
+        media="screen">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
@@ -33,6 +34,27 @@
 <!-- body -->
 
 <body class="main-layout ">
+    <!--Start of Tawk.to Script-->
+    {{-- <script type="text/javascript">
+        var Tawk_API = Tawk_API || {},
+            Tawk_LoadStart = new Date();
+        (function() {
+            var s1 = document.createElement("script"),
+                s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6144562b25797d7a89ff7314/1ffpf17f9';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script> --}}
+    <!--End of Tawk.to Script-->
+    {{-- Script Respond.io --}}
+    <script id="respondio__widget"
+        src="https://cdn.respond.io/webchat/widget/widget.js?cId=089306234a83e8ef3c1167f9958beb8ef47e594883ce4d0659ba18d78b5c749c">
+    </script>
+    <!-- https://respond.io -->
+    {{-- Script Respond.io --}}
     <!-- loader  -->
     <div class="loader_bg">
         <div class="loader"><img src="images/loading.gif" alt="#" /></div>
@@ -57,23 +79,23 @@
                     <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9">
                         <div class="location_icon_bottum_tt">
                             <ul>
-                                <li><img src="icon/loc1.png" />Location</li>
-                                <li><img src="icon/email1.png" />demo@gmail.com</li>
-
-                                <li><img src="icon/call1.png" />(+71)9876543109</li>
+                                <li><img src="icon/loc.png" />Cikarang</li>
+                                <li><img src="icon/email.png" />pthri.sales@gmail.com</li>
+                                <li><img src="icon/call.png" />(+62) 813 1511 3578</li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-12 location_icon_bottum">
-                       <div class="row">
-                            <div class="col-md-8 ">
+                        <div class="row">
+                            <div class="col-md-10">
                                 <div class="menu-area">
                                     <div class="limit-box">
                                         <nav class="main-menu">
                                             <ul class="menu-area-main">
-                                                <li class="active"> <a href="index.html">Home</a> </li>
+                                                <li class="active"> <a href="">Home</a> </li>
+                                                <!-- index.html -->
                                                 <li> <a href="#about">About</a> </li>
                                                 <li><a href="#product">Products</a></li>
                                                 <li><a href="#testimonial">Testimonial</a></li>
@@ -85,13 +107,13 @@
                                 </div>
 
                             </div>
-                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
+                            <!-- <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
                                 <form class="search">
                                     <input class="form-control" type="text" placeholder="Search">
                                     <button><img src="images/search_icon.png"></button>
                                 </form>
-                            </div>
-                       </div>
+                            </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -103,56 +125,66 @@
         <div id="myCarousel" class="carousel slide banner-main" data-ride="carousel">
             <ul class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class=""></li>
-                <li data-target="#myCarousel" data-slide-to="1" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+                <li data-target="
+                    #myCarousel" data-slide-to="1" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="2"
+                    class=""></li>
             </ul>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="first-slide" src="images/banner.jpg" alt="First slide">
-                    <div class="container">
-                        <div class="carousel-caption relative">
-                            <h1>Moon</h1>
-                            <span>FARMING COMPANY</span>
+            <div class=" carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="first-slide" src="images/banner.jpg" alt="First slide">
+                        <div class="container">
+                            <div class="carousel-caption relative">
+                                <h1>HRI</h1>
+                                <span>Hidup Rajawali Indonesia</span>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
-                            <a class="buynow" href="#about">About us</a><a class="buynow ggg" href="#">Get a quote</a>
+                                <p>PT. Hidup Rajawali Indonesia is a company that provides delivery services located in
+                                    Cikarang </p>
+                                <a class="buynow" href="#about">About us</a><a class="buynow ggg"
+                                    href="#">Get a quote</a>
 
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="second-slide" src="images/banner.jpg" alt="Second slide">
-                    <div class="container">
-                        <div class="carousel-caption relative">
-                            <h1>Moon</h1>
-                            <span>FARMING COMPANY</span>
+                    <div class="carousel-item">
+                        <img class="second-slide" src="images/banner.jpg" alt="Second slide">
+                        <div class="container">
+                            <div class="carousel-caption relative">
+                                <h1>Moon</h1>
+                                <span>FARMING COMPANY</span>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
-                            <a class="buynow" href="#about">About us</a><a class="buynow ggg" href="#">Get a quote</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi </p>
+                                <a class="buynow" href="#about">About us</a><a class="buynow ggg"
+                                    href="#">Get a quote</a>
 
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="third-slide" src="images/banner.jpg" alt="Third slide">
-                    <div class="container">
-                        <div class="carousel-caption relative">
-                            <h1>Moon</h1>
-                            <span>FARMING COMPANY</span>
+                    <div class="carousel-item">
+                        <img class="third-slide" src="images/banner.jpg" alt="Third slide">
+                        <div class="container">
+                            <div class="carousel-caption relative">
+                                <h1>Moon</h1>
+                                <span>FARMING COMPANY</span>
 
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi </p>
-                            <a class="buynow" href="#about">About us</a><a class="buynow ggg" href="#">Get a quote</a>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                    exercitation ullamco laboris nisi </p>
+                                <a class="buynow" href="#about">About us</a><a class="buynow ggg"
+                                    href="#">Get a quote</a>
 
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-                <i class='fa fa-angle-left'></i>
-            </a>
-            <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-                <i class='fa fa-angle-right'></i>
-            </a>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <i class='fa fa-angle-left'></i>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <i class='fa fa-angle-right'></i>
+        </a>
         </div>
     </section>
 
@@ -163,8 +195,11 @@
 
                 <div class="col-xl-5 col-lg-5 col-md-5 co-sm-l2">
                     <div class="about_box">
-                        <h2>About moon<br><strong class="black"> Farm and company</strong></h2>
-                        <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex</p>
+                        <h2>About HRI<br><strong class="black"> Hidup Rajawali Indonesia</strong></h2>
+                        <p>We provide delivery services by land transportation, which is truck.
+                            HRI has a trip monitoring system with GPS technology in all of our trucks, and runs avery
+                            discipline scheduling system. We insist on monitoring all trucks until they reach their
+                            destination.</p>
                         <a href="#">Read More</a>
                     </div>
                 </div>
@@ -183,28 +218,28 @@
             <div class="row">
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
-                        <i><img src="images/1.png" alt="#"/></i>
+                        <i><img src="images/1.png" alt="#" /></i>
                         <span>1996923</span>
                         <h3>Harvesta</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
-                        <i><img src="images/2.png" alt="#"/></i>
+                        <i><img src="images/2.png" alt="#" /></i>
                         <span>8000</span>
                         <h3>Units of Cattle</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
-                        <i><img src="images/3.png" alt="#"/></i>
+                        <i><img src="images/3.png" alt="#" /></i>
                         <span>60002</span>
                         <h3>Farm</h3>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-3 col-md-3 co-sm-l2">
                     <div class="for_box">
-                        <i><img src="images/4.png" alt="#"/></i>
+                        <i><img src="images/4.png" alt="#" /></i>
                         <span>1623</span>
                         <h3>Units of Technic</h3>
                     </div>
@@ -231,7 +266,8 @@
                         <div class="offer_box">
                             <h3>Agriculture Products</h3>
                             <figure><img src="images/offer1.png" alt="img" /></figure>
-                            <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+                            <p>consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
 
                         </div>
                     </div>
@@ -239,7 +275,8 @@
                         <div class="offer_box">
                             <h3>Fresh Vegatables</h3>
                             <figure><img src="images/offer2.png" alt="img" /></figure>
-                            <p>consectetur adipiscing elit, sed do eiusmodmpor incididunt ut labore et dolore magna aliqua. Ut enim ad</p>
+                            <p>consectetur adipiscing elit, sed do eiusmodmpor incididunt ut labore et dolore magna
+                                aliqua. Ut enim ad</p>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 margin-lkk">
@@ -281,20 +318,22 @@
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="images/product_img1.jpg" alt="#" />
-                                    <h3>Fresh Apple </h3></figure>
+                                    <h3>Fresh Apple </h3>
+                                </figure>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="images/product_img2.jpg" alt="#" />
-                                    <h3>Fresh Aalu  </h3>
+                                    <h3>Fresh Aalu </h3>
                                 </figure>
                             </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="images/product_img4.jpg" alt="#" />
-                                    <h3>Rice Field </h3></figure>
+                                    <h3>Rice Field </h3>
+                                </figure>
                             </div>
                         </div>
                     </div>
@@ -304,13 +343,15 @@
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="images/product_img3.jpg" alt="#" />
-                                    <h3>Vegetables</h3></figure>
+                                    <h3>Vegetables</h3>
+                                </figure>
                             </div>
                         </div>
                         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                             <div class="product_box">
                                 <figure><img src="images/product_img5.jpg" alt="#" />
-                                    <h3>Field Wheat </h3></figure>
+                                    <h3>Field Wheat </h3>
+                                </figure>
                             </div>
                         </div>
                     </div>
@@ -318,7 +359,7 @@
             </div>
         </div>
     </div>
-   
+
 
     <!-- end product -->
     <!-- clients -->
@@ -338,95 +379,111 @@
             <div id="testimonial_slider" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
                 <ul class="carousel-indicators">
-                    <li data-target="#testimonial_slider" data-slide-to="0" class=""></li>
-                    <li data-target="#testimonial_slider" data-slide-to="1" class="active"></li>
-                    <li data-target="#testimonial_slider" data-slide-to="2" class=""></li>
+                    <li data-target="#testimonial_slider" data-slide-to="0"
+                        class=""></li>
+                    <li data-target=" #testimonial_slider" data-slide-to="1"
+                        class="active"></li>
+                    <li data-target="#testimonial_slider" data-slide-to="2"
+                        class=""></li>
                 </ul>
                 <!-- The slideshow -->
-                <div class="carousel-inner">
-                    <div class="carousel-item">
-                        <div class="testomonial_section">
+                <div class="
+                        carousel-inner">
+                        <div class="carousel-item">
+                            <div class="testomonial_section">
 
-                            <div class="full testimonial_cont text_align_center cross_layout">
-                                <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
-                                        <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#"/></i>
+                                <div class="full testimonial_cont text_align_center cross_layout">
+                                    <div class="row">
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
+                                            <div class="testomonial_img">
+                                                <i><img src="images/tes.jpg" alt="#" /></i>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
-                                        <div class="cross_inner">
-                                            <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
-                                            <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                                                <img src="icon/2.png" alt="#" />
-                                            </p>
+                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
+                                            <div class="cross_inner">
+                                                <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
+                                                <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    <img src="icon/2.png" alt="#" />
+                                                </p>
 
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item active">
-
-                        <div class="testomonial_section">
-                            <div class="full center">
-                            </div>
-                            <div class="full testimonial_cont text_align_center cross_layout">
-                                <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
-                                        <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#"/></i>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
-                                        <div class="cross_inner">
-                                            <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
-                                            <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                                                <img src="icon/2.png" alt="#" />
-                                            </p>
-
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
-                    </div>
+                        <div class="carousel-item active">
 
-                    <div class="carousel-item">
+                            <div class="testomonial_section">
+                                <div class="full center">
+                                </div>
+                                <div class="full testimonial_cont text_align_center cross_layout">
+                                    <div class="row">
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
+                                            <div class="testomonial_img">
+                                                <i><img src="images/tes.jpg" alt="#" /></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
+                                            <div class="cross_inner">
+                                                <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
+                                                <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    <img src="icon/2.png" alt="#" />
+                                                </p>
 
-                        <div class="testomonial_section">
-                            <div class="full center">
-                            </div>
-                            <div class="full testimonial_cont text_align_center cross_layout">
-                                <div class="row">
-                                    <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
-                                        <div class="testomonial_img">
-                                            <i><img src="images/tes.jpg" alt="#"/></i>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
-                                        <div class="cross_inner">
-                                            <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
-                                            <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                                                <img src="icon/2.png" alt="#" />
-                                            </p>
+                                </div>
+                            </div>
 
+                        </div>
+
+                        <div class="carousel-item">
+
+                            <div class="testomonial_section">
+                                <div class="full center">
+                                </div>
+                                <div class="full testimonial_cont text_align_center cross_layout">
+                                    <div class="row">
+                                        <div class="col-xl-3 col-lg-3 col-md-3 col-sm-3 pa_right">
+                                            <div class="testomonial_img">
+                                                <i><img src="images/tes.jpg" alt="#" /></i>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-9 col-lg-9 col-md-9 col-sm-9 pa_left">
+                                            <div class="cross_inner">
+                                                <h3>Johndue<br><strong class="ornage_color">Farm & CO</strong></h3>
+                                                <p><img src="icon/1.png" alt="#" />ipsum dolor sit amet, consectetur
+                                                    adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                                                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                                    consequat. Duis aute irure dolor in reprehenderit in voluptate velit
+                                                    <img src="icon/2.png" alt="#" />
+                                                </p>
+
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                </div>
 
             </div>
+
         </div>
     </div>
-  
+    </div>
+
     <!-- end clients -->
     <!-- contact -->
 
@@ -435,7 +492,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="title">
-                        <h2>Get In <strong class="black"> Toucgh</strong></h2>
+                        <h2>Get In <strong class="black"> Touch</strong></h2>
                     </div>
                 </div>
             </div>
@@ -448,7 +505,7 @@
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
 
-                            <form class="main_form">
+                            <!-- <form class="main_form">
                                 <div class="row">
 
                                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -467,7 +524,7 @@
                                         <button class="send">Send</button>
                                     </div>
                                 </div>
-                            </form>
+                            </form> -->
                         </div>
                     </div>
                 </div>
@@ -478,7 +535,7 @@
         </div>
     </div>
 
-   
+
     <!-- end contact -->
 
     <!-- footer -->
@@ -491,7 +548,8 @@
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div class="address">
                             <a href="index.html"> <img src="images/logo.png" alt="logo" /></a>
-                            <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et sdolor sit amet, consectetur adipiscing elit, </p>
+                            <p>dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                                et sdolor sit amet, consectetur adipiscing elit, </p>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12">
@@ -523,23 +581,26 @@
                             <ul class="loca">
                                 <li>
                                     <a href="#"><img src="icon/loc.png" alt="#" /></a>London 145
-                                    <br>United Kingdom </li>
+                                    <br>United Kingdom
+                                </li>
                                 <li>
-                                    <a href="#"><img src="icon/email.png" alt="#" /></a>demo@gmail.com </li>
+                                    <a href="#"><img src="icon/email.png" alt="#" /></a>demo@gmail.com
+                                </li>
                                 <li>
-                                    <a href="#"><img src="icon/call.png" alt="#" /></a>+12586954775 </li>
+                                    <a href="#"><img src="icon/call.png" alt="#" /></a>+12586954775
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-     
+
         <div class="copyright">
             <div class="container">
                 <p>© 2019 All Rights Reserved. Design By<a href="https://html.design/"> Free Html Templates</a></p>
-           
-        </div>
+
+            </div>
         </div>
     </footr>
 
@@ -596,7 +657,8 @@
         }
     </script>
     <!-- google map js -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA8eaHt9Dh5H57Zh0xVTqxVdBFCvFMqFjQ&callback=initMap">
+    </script>
     <!-- end google map js -->
 </body>
 
